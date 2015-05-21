@@ -1,0 +1,18 @@
+// Theme
+$brand-color: lightblue;
+$line-color: #eee;
+
+// Reset Vars
+$default-font-family: 'Open Sans', Arial;
+$default-font-size: 12pt;
+$default-font-weight: 400;
+$default-text-color: #444;
+$default-anchor-color: $brand-color;
+$default-anchor-color-visited: $brand-color;
+
+// Structure
+$default-page-width: 960px;
+$gutter: 0.7rem;
+
+// Common Breakpoints
+$desktop-breakpoint: 1050px;

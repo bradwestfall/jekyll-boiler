@@ -1,0 +1,36 @@
+@mixin button() {
+
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	font-size: 10pt;
+	border-radius: 4px;
+	padding: 5px 15px;
+	outline: 0;
+	display: inline-block;
+
+	&::-moz-focus-inner { border: 0; }
+
+	&:hover {
+		outline: 0;
+	}
+
+	&:active {
+		background-color: #3DC83D;
+		outline: 0;
+	}
+
+	&.disabled {
+		color: #AAAAAA;
+		background-color: #DDDDDD;
+		border-color: #CCC7C3;
+		cursor: default;
+	}
+
+	&.disabled:hover {
+		color: #AAAAAA;
+		background-color: #DDDDDD;
+		border-color: #CCC7C3;
+	}
+	
+}

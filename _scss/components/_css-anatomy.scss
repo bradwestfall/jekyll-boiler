@@ -1,0 +1,34 @@
+/**
+ * Vars
+ */
+
+$selector-color: rgba(255, 114, 0, 0.64);
+$property-color: rgba(0, 249, 255, 0.52);
+$value-color: rgba(0, 255, 52, 0.35);
+$target-color: rgba(229, 0, 255, 0.57);
+$ruleset-color: rgba(246, 255, 0, 0.57);
+
+/**
+ * CSS Anatomy
+ */
+.css-anatomy {
+    font-size: 2em;
+
+    span {
+        border-radius: 3px;
+        line-height: 130%;
+    }
+
+    span.selector { background-color: $selector-color; }
+    span.property { background-color: $property-color; }
+    span.value { background-color: $value-color; }
+    span.target { background-color: $target-color; }
+    span.ruleset { background-color: $ruleset-color; }
+
+}
+
+.legend .key.selector { color: $selector-color; }
+.legend .key.property { color: $property-color; }
+.legend .key.value { color: $value-color; }
+.legend .key.target { color: $target-color; }
+.legend .key.ruleset { color: $ruleset-color; }
